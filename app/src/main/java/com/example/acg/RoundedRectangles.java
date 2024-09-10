@@ -39,7 +39,7 @@ public class RoundedRectangles extends View {
 
         for(int i = 0; i < 10; i ++){
             p.setARGB(255, random.nextInt(256), random.nextInt(256), random.nextInt(256));
-            canvas.drawRoundRect(random.nextInt(width), random.nextInt(height), random.nextInt(width), random.nextInt(height),10,10, p);
+            canvas.drawRoundRect(random.nextInt(width), random.nextInt(height), random.nextInt(width), random.nextInt(height),20,20, p);
         }
 
         p.setStyle(Paint.Style.STROKE);
